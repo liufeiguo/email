@@ -1,0 +1,70 @@
+[INFO ][20190124 11:13:27,716][AbstractApplicationContext:582] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1517365b: startup date [Thu Jan 24 11:13:27 CST 2019]; root of context hierarchy
+[INFO ][20190124 11:13:27,850][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-context.xml]
+[INFO ][20190124 11:13:28,246][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-mq.xml]
+[INFO ][20190124 11:13:28,429][PropertiesLoaderSupport:172] Loading properties file from class path resource [mq.properties]
+[ERROR][20190124 11:13:28,689][MailProducerTest:50] --->MQ context start error:
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.liu.mq.service.MailProducer' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:353)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:340)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1093)
+	at com.liu.mq.MailProducerTest.main(MailProducerTest.java:39)
+[INFO ][20190124 11:14:24,794][AbstractApplicationContext:582] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1517365b: startup date [Thu Jan 24 11:14:24 CST 2019]; root of context hierarchy
+[INFO ][20190124 11:14:24,882][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-context.xml]
+[INFO ][20190124 11:14:25,055][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-mq.xml]
+[INFO ][20190124 11:14:25,205][PropertiesLoaderSupport:172] Loading properties file from class path resource [mq.properties]
+[ERROR][20190124 11:14:25,412][MailProducerTest:50] --->MQ context start error:
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.liu.mq.service.MailProducer' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:353)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:340)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1093)
+	at com.liu.mq.MailProducerTest.main(MailProducerTest.java:39)
+[INFO ][20190124 11:19:28,615][AbstractApplicationContext:582] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1517365b: startup date [Thu Jan 24 11:19:28 CST 2019]; root of context hierarchy
+[INFO ][20190124 11:19:28,717][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-context.xml]
+[INFO ][20190124 11:19:28,890][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-mq.xml]
+[INFO ][20190124 11:19:29,034][PropertiesLoaderSupport:172] Loading properties file from class path resource [mq.properties]
+[ERROR][20190124 11:19:29,229][MailProducerTest:50] --->MQ context start error:
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'mailProducer' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at com.liu.mq.MailProducerTest.main(MailProducerTest.java:39)
+[INFO ][20190124 11:20:18,311][AbstractApplicationContext:582] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1517365b: startup date [Thu Jan 24 11:20:18 CST 2019]; root of context hierarchy
+[INFO ][20190124 11:20:18,404][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-context.xml]
+[INFO ][20190124 11:20:18,608][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-mq.xml]
+[INFO ][20190124 11:20:18,777][PropertiesLoaderSupport:172] Loading properties file from class path resource [mq.properties]
+[ERROR][20190124 11:20:18,958][MailProducerTest:50] --->MQ context start error:
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.liu.mq.service.MailProducer' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:353)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:340)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1093)
+	at com.liu.mq.MailProducerTest.main(MailProducerTest.java:39)
+[INFO ][20190124 11:20:43,349][AbstractApplicationContext:582] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1517365b: startup date [Thu Jan 24 11:20:43 CST 2019]; root of context hierarchy
+[INFO ][20190124 11:20:43,433][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-context.xml]
+[INFO ][20190124 11:20:43,619][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-mq.xml]
+[INFO ][20190124 11:20:43,774][PropertiesLoaderSupport:172] Loading properties file from class path resource [mq.properties]
+[ERROR][20190124 11:20:44,175][MailProducerTest:50] --->MQ context start error:
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.liu.mq.service.MailProducer' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:353)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:340)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1093)
+	at com.liu.mq.MailProducerTest.main(MailProducerTest.java:39)
+[INFO ][20190124 11:21:10,575][AbstractApplicationContext:582] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1517365b: startup date [Thu Jan 24 11:21:10 CST 2019]; root of context hierarchy
+[INFO ][20190124 11:21:10,657][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-context.xml]
+[INFO ][20190124 11:21:10,831][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-mq.xml]
+[INFO ][20190124 11:21:10,991][PropertiesLoaderSupport:172] Loading properties file from class path resource [mq.properties]
+[ERROR][20190124 11:21:11,427][MailProducerTest:50] --->MQ context start error:
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'mailProducer' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at com.liu.mq.MailProducerTest.main(MailProducerTest.java:39)
+[INFO ][20190124 11:21:52,595][AbstractApplicationContext:582] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1517365b: startup date [Thu Jan 24 11:21:52 CST 2019]; root of context hierarchy
+[INFO ][20190124 11:21:52,661][XmlBeanDefinitionReader:317] Loading XML bean definitions from URL [file:/D:/java/workspace/sendmail/mail-producer/target/classes/spring/spring-context.xml]
+[INFO ][20190124 11:21:52,918][XmlBeanDefinitionReader:317] Loading XML bean definitions from URL [file:/D:/java/workspace/sendmail/mail-producer/target/classes/spring/spring-mq.xml]
+[INFO ][20190124 11:21:53,105][PropertiesLoaderSupport:172] Loading properties file from class path resource [mq.properties]
+[INFO ][20190124 11:21:53,593][SingleConnectionFactory:311] Established shared JMS Connection: PooledConnection { ConnectionPool[ActiveMQConnection {id=ID:gcx-liuguofei-54617-1548300113428-1:1,clientId=null,started=false}] }
+[INFO ][20190124 11:21:53,964][MailProducerTest:53] --->System.exit
